@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  .font-serif {
+    font-family: 'Roboto', serif;
+  }
+  
+  .font-sans {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+}
